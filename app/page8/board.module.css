@@ -1,0 +1,59 @@
+.container {
+    margin: 20px auto;
+}
+.textBox {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.title {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.list {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.open {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.detail {
+    font-size: 14px;
+    color: #ccc;
+}

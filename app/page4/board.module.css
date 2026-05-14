@@ -1,0 +1,71 @@
+.container {
+    margin: 20px auto;
+}
+.textBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.title {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.content {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    /* 테두리랑 패딩 다 포함해서 정해진 사이즈 안에 맞춰라. */
+    height: 150px;
+    resize: none;
+    /* 마우스로 창 크기 조절 못 하게 막아라. */
+}
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+}
+.button {
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.postList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.postItem {
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     margin-bottom: 15px;
+     overflow: hidden;
+}
+.itemTitle {
+    display: flex;
+    justify-content: space-between;
+    /* 양 끝으로 몰아넣고 가운데는 띄워라. */
+    align-items: center;
+    padding: 15px 20px;
+    cursor:pointer;
+}
+.open {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.detailContent {
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    white-space: pre-wrap; 
+    /* 엔터 친 대로 보여주고, 길면 알아서 줄바꿈해라. */
+}
+.detailDate{
+    font-size: 13px;
+    color: #999;
+}

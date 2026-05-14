@@ -1,0 +1,62 @@
+.container {
+    margin: 20px auto;
+}
+.textBox {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.title {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.content {
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 100px;
+}
+.buttonBox {
+    display: flex;
+    /* 틀림 */
+    justify-content: flex-end;
+    gap: 5px;
+}
+.button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/* 틀림 */
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+/* 틀림 */
+.list {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.open {
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+}
+.date {
+    font-size: 14px;
+    color: #ccc;
+}

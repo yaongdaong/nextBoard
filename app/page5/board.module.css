@@ -1,0 +1,61 @@
+.container {
+    margin: 20px auto;
+}
+.textBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.title {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.content {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    height: 150px;
+}
+.buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+.button {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.listWrap {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.listItem {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.open {
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.date {
+    color: #ccc;
+    font-size: 14px;
+}
